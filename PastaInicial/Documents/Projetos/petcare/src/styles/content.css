@@ -1,0 +1,57 @@
+/* ---------- importing the global css file ------- */
+@import url('global.css');
+
+
+
+
+/* ------------ headline ------- */
+.headline--container{
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    width: 100%;
+    height: 25rem;
+}
+
+.headline--textContent{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 3rem;
+    font-size: clamp(1rem, 5vw, 2rem);
+}
+
+.headline--textContent span{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    color: var(--blue400);
+}
+
+.headline--textContent span img{
+    width: 50%;
+}
+
+.headline--button{
+    margin-top: 3rem;
+}
+
+.headline--imgContainer{
+    width: 10%;
+}
+
+.headline--imgContainer img{
+    position: absolute;
+    right: .5vw;
+    top: 0;
+    transform: translateY(-30%);
+    z-index: -1;
+    width: 55vw;
+}
+
+
+/* ============ PRODUCTS SECTION ============= */
+.products--section{
+    margin-top: 4rem;
+}

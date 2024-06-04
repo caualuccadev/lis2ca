@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oferecendo o melhor cuidado ao seu melhor amigo há mais de 5 anos.">
+    <!-- title  -->
+    <title>Petcare - Petshop</title>
+
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="assets/images/Paw.svg" type="image/svg">
+
+    <!-- link of bootstrap icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- css links -->
+    <link rel="stylesheet" href="src/styles/global.css"> <!-- global components -->
+    <link rel="stylesheet" href="src/styles/content.css"> <!-- main content styles -->
+</head>
+<body>
+
+    <!-- ============= HEADER ============= -->
+    <header class="header--container">
+        <div class="brandname">
+            <h2>Pet<strong>care</strong></h2>
+            <img src="assets/images/Paw.svg" alt="Ícone de pata de animal. Faz parte da logo do petshop." srcset="">
+        </div> <!-- end of brand name -->
+
+        <nav class="navigation--desktop">
+            <a href="#">Início</a>
+            <a href="#">Produtos</a>
+            <a href="#">Serviços</a>
+            <a href="#">Sobre Nós</a>
+            <a href="#" class="emphasis--link">Contato</a>
+        </nav> <!-- end of desktop navigation -->
+
+        <nav class="navigation--mobile">
+            <button id="openMenu" aria-label="Botão para abrir o menu mobile"> 
+                <img src="assets/images/button__mobile.svg" alt="">
+            </button>
+                <ul class="manuMobile--items">
+                    <li><button>
+                        <img src="assets/images/button_closeMobile.svg" alt="" aria-label="Botão para fechar o menu mobile" id="closeMenu"/>
+                    </button></li>
+                    <li class="menu--item"><a href="#">Início</a></li>
+                    <li class="menu--item"><a href="#">Produtos</a></li>
+                    <li class="menu--item"><a href="#">Serviços</a></li>
+                    <li class="menu--item"><a href="#">Sobre Nós</a></li>
+                    <li class="menu--item"><a href="#">Contato</a></li>
+                </ul>
+        </nav> <!-- end of mobile navigation-->
+
+    </header> <!-- end of header  -->
+
+
+    <!-- ============= MAIN ============= -->
+    <main>
+
+        <!-- ============= HEADLINE ============= -->
+        <section class="headline--container">
+            <div class="headline--textContent">
+                <h1>Seu melhor amigo merece
+                    <span>
+                        o melhor cuidado.
+                        <img src="assets/images/underline.png" alt="">
+                    </span>
+                </h1> <!-- end of the main title -->
+
+                <button class="primary--button headline--button">Ver Serviços <i class="bi bi-chevron-compact-right"></i></button>
+            </div> <!-- end of headline content -->
+
+            <div class="headline--imgContainer">
+                <img src="assets/images/dog-headline.png" alt="">
+            </div> <!-- end of the headline image -->
+        </section> <!-- end of headline -->
+
+
+        <!-- ============= PRODUCTS ============= -->
+        <section class="products--section">
+            <h2>Conheça nossos produtos</h2>
+
+            <div class="sliderProducts--container">
+                <div class="slider">
+                    <div class="card">
+                        <h3>Title Card</h3>
+                    </div> <!-- end of card -->
+                </div><!-- end of slider -->
+            </div> <!-- end of slider -->
+        </section> <!-- end of products -->
+    </main> <!-- end of main -->
+</body>
+</html>

@@ -1,0 +1,15 @@
+/* importing google fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /* cormorant for the logo, poppins for the titles and cabin for the text */
+
+
+/* defining the root */
+:root{
+    --brand_greenp: #7EAF8C;
+    --brand_begep: #DBADA0;
+    --bg_default: #FBFBFB;
+    --bg_light-green: #ECF3EE;
+    --bg_dark-green: #4D6B55;
+    --text_default: #262E28;
+    --text_details: #587A62;
+    --stroke_faq: #C5DBCB; 
+}
